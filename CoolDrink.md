@@ -111,18 +111,6 @@ BAR里面没有值得让顾客眼前一亮的新鲜玩意？
 
 ![] (http://huohua.qiniudn.com/CoolDrink17.jpg)
 
-![] (http://huohua.qiniudn.com/CoolDrink18.jpg)
-
-![] (http://huohua.qiniudn.com/CoolDrink19.jpg)
-
-![] (http://huohua.qiniudn.com/CoolDrink20.jpg)
-
-![] (http://huohua.qiniudn.com/CoolDrink21.jpg)
-
-![] (http://huohua.qiniudn.com/CoolDrink22.jpg)
-
-![] (http://huohua.qiniudn.com/CoolDrink23.jpg)
-
 
 
 
