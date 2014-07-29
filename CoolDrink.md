@@ -109,7 +109,7 @@ BAR里面没有值得让顾客眼前一亮的新鲜玩意？
 
 有了这么一个炫酷的酒杯底座，那么在聚会时，你将会是最闪耀的那一位！
 
-![] (http://huohua.qiniudn.com/CoolDrink17.jpg)
+![] (http://huohua.qiniudn.com/CoolDrink25.jpg)
 
 
 
