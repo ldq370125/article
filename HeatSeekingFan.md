@@ -1,52 +1,52 @@
-# Ñ°ÈÈ·çÉÈ
+ï»¿# å¯»çƒ­é£Žæ‰‡
 
->[Ô­ÎÄÁ´½Ó] (http://www.instructables.com/id/Heat-Seeking-Desk-Fan-using-Arduino/?ALLSTEPS) 
-×÷Õß:ePums ·­Òë:AD£¨ldq370125£©
-±êÇ©£¨¿Õ¸ñ·Ö¸ô£©£º Arduino ·çÉÈ
+>[åŽŸæ–‡é“¾æŽ¥] (http://www.instructables.com/id/Heat-Seeking-Desk-Fan-using-Arduino/?ALLSTEPS) 
+ä½œè€…:ePums ç¿»è¯‘:ADï¼ˆldq370125ï¼‰
+æ ‡ç­¾ï¼ˆç©ºæ ¼åˆ†éš”ï¼‰ï¼š Arduino é£Žæ‰‡
 
 ---
 
 ![](http://huohua.qiniudn.com/HeatSeekingFan1.jpg)
 
-##1. ¼ò½é
-ÎÒÊÇ¸ö¿à±ÆÑ§Éúµ³¡£¡£¡£
-¾ÞhotÎÞ±ÈµÄÏÄÌìÒ²Ö»ÄÜ×¡ËÞÉá¡£¡£¡£
-×¡ËÞÉáµ¹ÎÞËùÎ½¡£¡£¡£
-¹Ø¼üÊÇÕâ¹íÈÈµÄÌìÆø£¬ÍíÉÏË¯¾õ»áÊºÒ»Ñù¡£¡£¡£
-ÒòÎªÄ¾ÓÐ¿Õµ÷¡£¡£¡£
-ÎªÄ¾ÓÐ¿Õµ÷¡£¡£¡£
-Ä¾ÓÐ¿Õµ÷¡£¡£¡£
-ÓÐ¿Õµ÷¡£¡£¡£
-¿Õµ÷¡£¡£¡£
-µ÷¡£¡£¡£
-¡£¡£¡£
-¡£¡£
-¡£
+##1. ç®€ä»‹
+æˆ‘æ˜¯ä¸ªè‹¦é€¼å­¦ç”Ÿå…šã€‚ã€‚ã€‚
+å·¨hotæ— æ¯”çš„å¤å¤©ä¹Ÿåªèƒ½ä½å®¿èˆã€‚ã€‚ã€‚
+ä½å®¿èˆå€’æ— æ‰€è°“ã€‚ã€‚ã€‚
+å…³é”®æ˜¯è¿™é¬¼çƒ­çš„å¤©æ°”ï¼Œæ™šä¸Šç¡è§‰ä¼šå±Žä¸€æ ·ã€‚ã€‚ã€‚
+å› ä¸ºæœ¨æœ‰ç©ºè°ƒã€‚ã€‚ã€‚
+ä¸ºæœ¨æœ‰ç©ºè°ƒã€‚ã€‚ã€‚
+æœ¨æœ‰ç©ºè°ƒã€‚ã€‚ã€‚
+æœ‰ç©ºè°ƒã€‚ã€‚ã€‚
+ç©ºè°ƒã€‚ã€‚ã€‚
+è°ƒã€‚ã€‚ã€‚
+ã€‚ã€‚ã€‚
+ã€‚ã€‚
+ã€‚
 
-ÍíÉÏ´µµçÉÈºÜÈÝÒ×¾Í»áµ¼ÖÂµÚ¶þÌìÉíÌåÄ³¸ö²¿·Ö±»´µµÃÊ®·ÖÌÛÍ´£¬ÊÇÒòÎª·çÉÈ²»ÊÇÖÇÄÜµÄ¡£¡£¡£
-ÕâÑùÒ»À´£¬Ò»¸öÖÇÄÜ´µ·çÉÈ¾ÍÊÇÎÒµÄtarget£¡
-ÏÂÃæÎÒÃÇÀ´×öÒ»¸ö±È½Ï¼òµ¥ÈëÃÅµÄ¡°Ñ°ÈÈ·çÉÈ¡±£¬ÈÃÄãÔÚÈÈµÄÊ±ºò¾ÍÄÜ´µ´µ·ç£¬Á¹µÄÊ±ºò¾Í²»ÔÙ´µ·ç£¡
+æ™šä¸Šå¹ç”µæ‰‡å¾ˆå®¹æ˜“å°±ä¼šå¯¼è‡´ç¬¬äºŒå¤©èº«ä½“æŸä¸ªéƒ¨åˆ†è¢«å¹å¾—ååˆ†ç–¼ç—›ï¼Œæ˜¯å› ä¸ºé£Žæ‰‡ä¸æ˜¯æ™ºèƒ½çš„ã€‚ã€‚ã€‚
+è¿™æ ·ä¸€æ¥ï¼Œä¸€ä¸ªæ™ºèƒ½å¹é£Žæ‰‡å°±æ˜¯æˆ‘çš„targetï¼
+ä¸‹é¢æˆ‘ä»¬æ¥åšä¸€ä¸ªæ¯”è¾ƒç®€å•å…¥é—¨çš„â€œå¯»çƒ­é£Žæ‰‡â€ï¼Œè®©ä½ åœ¨çƒ­çš„æ—¶å€™å°±èƒ½å¹å¹é£Žï¼Œå‡‰çš„æ—¶å€™å°±ä¸å†å¹é£Žï¼
     
-##2. Çåµ¥
-###2.1 ²ÄÁÏ
-- ºìÍâ²âÎÂÒÇ MLX90614 X1
-- ËÅ·þµç»ú X1
+##2. æ¸…å•
+###2.1 ææ–™
+- çº¢å¤–æµ‹æ¸©ä»ª MLX90614 X1
+- ä¼ºæœç”µæœº X1
 - Arduino UNO X1
-- 12V DC µçÄÔ·çÉÈ X1
-- 12VµçÔ´ÊÊÅäÆ÷ X1
-- ÈÈÈÛ½º X1
-- 6x8" ÍòÓÃ°å X1
-- µ¼ÏßÈô¸É
+- 12V DC ç”µè„‘é£Žæ‰‡ X1
+- 12Vç”µæºé€‚é…å™¨ X1
+- çƒ­ç†”èƒ¶ X1
+- 6x8" ä¸‡ç”¨æ¿ X1
+- å¯¼çº¿è‹¥å¹²
 
-###2.2 ¹¤¾ß
-- µçÀÓÌú
-- ÈÈÈÛ½ºÇ¹
+###2.2 å·¥å…·
+- ç”µçƒ™é“
+- çƒ­ç†”èƒ¶æžª
 
-##3. ×é×°
-### 3.1 ÎÂ¶È´«¸ÐÆ÷Á¬Ïß
-ÎÒÃÇÐèÒªÇÐÏÂÒ»Ð¡¿éÍòÓÃ°å£¬ÓÃÒÔ·ÅÖÃÎÂ¶È´«¸ÐÆ÷£¬¼´ºìÍâ²âÎÂÒÇ¡£½«ºìÍâ²âÎÂÒÇÓëÍòÓÃ°åÓÃÈÈÈÛ½ºÕ³ºÏÔÚÒ»Æð¡£ÍòÓÃ°å³ß´çµÄ´óÐ¡¿ÉÒÔ¸ù¾ÝÄãµÄ·çÉÈ´óÐ¡À´¶¨¶á£¬ÏÂÎÄÓÐÍ¼Æ¬¿ÉÒÔ²Î¿¼¡£
-ºìÍâ²âÎÂÒÇµÄÁ¬ÏßÊ®·ÖÖØÒª¡£Á¬ÏßÁÐ±íÈçÏÂ±íËùÊ¾£º
-|ÎÂ¶È´«¸ÐÆ÷|Arduino UNO|
+##3. ç»„è£…
+### 3.1 æ¸©åº¦ä¼ æ„Ÿå™¨è¿žçº¿
+æˆ‘ä»¬éœ€è¦åˆ‡ä¸‹ä¸€å°å—ä¸‡ç”¨æ¿ï¼Œç”¨ä»¥æ”¾ç½®æ¸©åº¦ä¼ æ„Ÿå™¨ï¼Œå³çº¢å¤–æµ‹æ¸©ä»ªã€‚å°†çº¢å¤–æµ‹æ¸©ä»ªä¸Žä¸‡ç”¨æ¿ç”¨çƒ­ç†”èƒ¶ç²˜åˆåœ¨ä¸€èµ·ã€‚ä¸‡ç”¨æ¿å°ºå¯¸çš„å¤§å°å¯ä»¥æ ¹æ®ä½ çš„é£Žæ‰‡å¤§å°æ¥å®šå¤ºï¼Œä¸‹æ–‡æœ‰å›¾ç‰‡å¯ä»¥å‚è€ƒã€‚
+çº¢å¤–æµ‹æ¸©ä»ªçš„è¿žçº¿ååˆ†é‡è¦ã€‚è¿žçº¿åˆ—è¡¨å¦‚ä¸‹è¡¨æ‰€ç¤ºï¼š
+|æ¸©åº¦ä¼ æ„Ÿå™¨|Arduino UNO|
 | :-----: | :-----:|
 |SDA(DATA)|A4 analog|
 |SCL(CLOCK)|A5 analog| 
@@ -58,46 +58,46 @@
 ![](http://huohua.qiniudn.com/HeatSeekingFan7.jpg)
 
 
-### 3.2 ËÅ·þµç»úÁ¬Ïß
+### 3.2 ä¼ºæœç”µæœºè¿žçº¿
 
-ÓÉÓÚËÅ·þµç»úµÄ¹¤×÷µçÁ÷Ì«´ó£¬ËùÒÔÎÒÃÇÐèÒª¶îÍâ¸øËÅ·þµç»ú¹©5VµçÔ´¡£Á¬ÏßÁÐ±íÈçÏÂ±íËùÊ¾£º
+ç”±äºŽä¼ºæœç”µæœºçš„å·¥ä½œç”µæµå¤ªå¤§ï¼Œæ‰€ä»¥æˆ‘ä»¬éœ€è¦é¢å¤–ç»™ä¼ºæœç”µæœºä¾›5Vç”µæºã€‚è¿žçº¿åˆ—è¡¨å¦‚ä¸‹è¡¨æ‰€ç¤ºï¼š
 
-|ËÅ·þµç»ú|Arduino UNO|¶îÍâ5VµçÔ´|
+|ä¼ºæœç”µæœº|Arduino UNO|é¢å¤–5Vç”µæº|
 | :-----: | :-----:| :-----:|
-|³ÈÉ«Êý¾ÝÏß|Pin 9|/|
+|æ©™è‰²æ•°æ®çº¿|Pin 9|/|
 |VCC|/|5V|
 |GND|/|GND|
 
 ![](http://huohua.qiniudn.com/HeatSeekingFan3.jpg)
 
-### 3.3 ·çÉÈÁ¬Ïß
+### 3.3 é£Žæ‰‡è¿žçº¿
 
-Ò»°ãµçÄÔ·çÉÈµÄµçÑ¹¶¼±È½Ï´ó£¬ÒÔ12V¹©µç±È½Ï³£¼û£¬ËùÒÔÕâ¶ùÎÒÃÇÐèÒªÒ»¸ö12VµçÔ´ÊÊÅäÆ÷¹©µç¡£
-·çÉÈ½ÓÈëÒ»¸öÐ¡¿ª¹Øºó£¬¸ú12VµçÔ´ÊÊÅäÆ÷ÏàÁ¬¡£
+ä¸€èˆ¬ç”µè„‘é£Žæ‰‡çš„ç”µåŽ‹éƒ½æ¯”è¾ƒå¤§ï¼Œä»¥12Vä¾›ç”µæ¯”è¾ƒå¸¸è§ï¼Œæ‰€ä»¥è¿™å„¿æˆ‘ä»¬éœ€è¦ä¸€ä¸ª12Vç”µæºé€‚é…å™¨ä¾›ç”µã€‚
+é£Žæ‰‡æŽ¥å…¥ä¸€ä¸ªå°å¼€å…³åŽï¼Œè·Ÿ12Vç”µæºé€‚é…å™¨ç›¸è¿žã€‚
 
 ![](http://huohua.qiniudn.com/HeatSeekingFan4.jpg)
 
 
-### 3.4 ºÏÌå
-Ê×ÏÈ½«´øÓÐºìÍâ²âÎÂÒÇµÄÍòÓÃ°åÓÃÈÈÈÛ½ºÕ³ºÏÔÚ·çÉÈµÄ³ö·ç¿ÚÒ»²àµÄÖÐÐÄ×ªÖáÉÏ£¬ÕâÑù¾Í¿ÉÒÔ±ÜÃâÍòÓÃ°åµ²×¡·çµÄ³öÂ·¡£
-È»ºóÔÚËÅ·þµç»úÉÏ°²×°Ò»¸öµ××ù£¬½«·çÉÈ¹Ì¶¨ÓÚµ××ùÉÏ¡£
+### 3.4 åˆä½“
+é¦–å…ˆå°†å¸¦æœ‰çº¢å¤–æµ‹æ¸©ä»ªçš„ä¸‡ç”¨æ¿ç”¨çƒ­ç†”èƒ¶ç²˜åˆåœ¨é£Žæ‰‡çš„å‡ºé£Žå£ä¸€ä¾§çš„ä¸­å¿ƒè½¬è½´ä¸Šï¼Œè¿™æ ·å°±å¯ä»¥é¿å…ä¸‡ç”¨æ¿æŒ¡ä½é£Žçš„å‡ºè·¯ã€‚
+ç„¶åŽåœ¨ä¼ºæœç”µæœºä¸Šå®‰è£…ä¸€ä¸ªåº•åº§ï¼Œå°†é£Žæ‰‡å›ºå®šäºŽåº•åº§ä¸Šã€‚
 
 ![](http://huohua.qiniudn.com/HeatSeekingFan5.jpg)
 
-ËÅ·þµç»úÐèÒª¹Ì¶¨ÔÚÒ»¸ö¸ü´óµÄµ××ùÉÏÓÃÒÔ±£³ÖÎÈ¶¨¡£Äã¿ÉÒÔÊ¹ÓÃÂÝ¶¤»òÕß¼òµ¥µãµÄ½º´ø½øÐÐ¹Ì¶¨¡£
+ä¼ºæœç”µæœºéœ€è¦å›ºå®šåœ¨ä¸€ä¸ªæ›´å¤§çš„åº•åº§ä¸Šç”¨ä»¥ä¿æŒç¨³å®šã€‚ä½ å¯ä»¥ä½¿ç”¨èžºé’‰æˆ–è€…ç®€å•ç‚¹çš„èƒ¶å¸¦è¿›è¡Œå›ºå®šã€‚
 
 ![](http://huohua.qiniudn.com/HeatSeekingFan8.jpg)
 
 
-##5 ´úÂë²âÊÔ
+##5 ä»£ç æµ‹è¯•
 
-ÎÒÃÇÊ×ÏÈÒª×öµÄÊÇÀûÓÃArduino UNO»ñÈ¡ºìÍâ´«¸ÐÆ÷µÄÎÂ¶È¡£
-°´ÏÂÃæ²½ÖèÀ´×ö£º
+æˆ‘ä»¬é¦–å…ˆè¦åšçš„æ˜¯åˆ©ç”¨Arduino UNOèŽ·å–çº¢å¤–ä¼ æ„Ÿå™¨çš„æ¸©åº¦ã€‚
+æŒ‰ä¸‹é¢æ­¥éª¤æ¥åšï¼š
 
-- µ¼Èë¡°i2cmaster¡±¿â£º
-   µ½´Ë[Á´½Ó](http://huohua.qiniudn.com/i2cmaster.zip)ÏÂÔØ¡°i2cmaster.zip¡±ÎÄ¼þ£¬½âÑ¹ºó£¬ÔÚ/{arduino root}/hardware/librariesÏÂÌí¼Ói2cmaster.h and twimaster.cÎÄ¼þ
-- ÐÞ¸Ä²ÎÊý£º
-  ´ò¿ªtwimaster.cÎÄ¼þ£¬½«¿ªÊ¼µÄ´úÂëÐÞ¸Ä³ÉÈçÏÂ²ÎÊý£º
+- å¯¼å…¥â€œi2cmasterâ€åº“ï¼š
+   åˆ°æ­¤[é“¾æŽ¥](http://huohua.qiniudn.com/i2cmaster.zip)ä¸‹è½½â€œi2cmaster.zipâ€æ–‡ä»¶ï¼Œè§£åŽ‹åŽï¼Œåœ¨/{arduino root}/hardware/librariesä¸‹æ·»åŠ i2cmaster.h and twimaster.cæ–‡ä»¶
+- ä¿®æ”¹å‚æ•°ï¼š
+  æ‰“å¼€twimaster.cæ–‡ä»¶ï¼Œå°†å¼€å§‹çš„ä»£ç ä¿®æ”¹æˆå¦‚ä¸‹å‚æ•°ï¼š
 
 
 ```python
@@ -109,7 +109,7 @@
 #define SCL_CLOCK 50000L
 ```
   
-- ÏÂÃæ´úÂëÄÜ¹»ÔÚSerial monitorÖÐ¿´µ½ÎÂ¶ÈµÄ´úÂë£¬×÷Îª²âÊÔ´úÂë£º
+- ä¸‹é¢ä»£ç èƒ½å¤Ÿåœ¨Serial monitorä¸­çœ‹åˆ°æ¸©åº¦çš„ä»£ç ï¼Œä½œä¸ºæµ‹è¯•ä»£ç ï¼š
 
 ```python
 #include 
@@ -156,7 +156,7 @@ delay(500);
 
 ```
   
-- ¿ÉÒÔÊ¹·çÉÈÑ°ÈÈµÄ×îÖÕ´úÂëÈçÏÂËùÊ¾£º
+- å¯ä»¥ä½¿é£Žæ‰‡å¯»çƒ­çš„æœ€ç»ˆä»£ç å¦‚ä¸‹æ‰€ç¤ºï¼š
 
 ```python
 //**TrackFan**//
@@ -296,8 +296,8 @@ void loop(){
 
 ```
   
-## 6 ³É¹ûÕ¹Ê¾
-Õâ¸öÑ°ÈÈ·çÉÈµÄ×ª¶¯½Ç¶ÈÎª120¡ã£¬Èç¹ûÄãÓÐÐÅÐÄ£¬¿ÉÒÔ×Ô¼º¸Ä¶¯ÉÏÃæµÄ´úÂë£¬ÕâÑùÄã¾Í¿ÉÒÔ°´ÕÕ×Ô¼ºµÄÒâÔ¸À´¿ØÖÆÕâÌ¨¡°Ñ°ÈÈ·çÉÈ¡±À²£¡
+## 6 æˆæžœå±•ç¤º
+è¿™ä¸ªå¯»çƒ­é£Žæ‰‡çš„è½¬åŠ¨è§’åº¦ä¸º120Â°ï¼Œå¦‚æžœä½ æœ‰ä¿¡å¿ƒï¼Œå¯ä»¥è‡ªå·±æ”¹åŠ¨ä¸Šé¢çš„ä»£ç ï¼Œè¿™æ ·ä½ å°±å¯ä»¥æŒ‰ç…§è‡ªå·±çš„æ„æ„¿æ¥æŽ§åˆ¶è¿™å°â€œå¯»çƒ­é£Žæ‰‡â€å•¦ï¼
 
 ![](http://huohua.qiniudn.com/HeatSeekingFan1.jpg)
 
