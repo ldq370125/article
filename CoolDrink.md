@@ -1,7 +1,6 @@
 # CoolDrink--炫酷酒杯座
->[原文链接] (http://makezine.com/projects/vampire-flashlight/) 
 
-作者:Sean Michael Ragan 翻译:AD（ldq370125）
+>[原文链接] (http://makezine.com/projects/vampire-flashlight/)  作者:Sean Michael Ragan 翻译:AD（ldq370125）
 
 标签（空格分隔）： 酒杯座 LED 
 
